@@ -3,18 +3,19 @@ local Sound = require('opus.sound')
 local os = _G.os
 
 local tunes = {
-	{ sound = 'record.11',      length = '1:11' },
-	{ sound = 'record.13',      length = '2:58' },
-	{ sound = 'record.blocks',  length = '5:45' },
-	{ sound = 'record.cat',     length = '3:05' },
-	{ sound = 'record.chirp',   length = '3:05' },
-	{ sound = 'record.far',     length = '2:54' },
-	{ sound = 'record.mall',    length = '3:17' },
-	{ sound = 'record.mellohi', length = '1:36' },
-	{ sound = 'record.stal',    length = '2:30' },
-	{ sound = 'record.strad',   length = '3:08' },
-	{ sound = 'record.wait',    length = '3:58' },
-	{ sound = 'record.ward',    length = '4:11' },
+	{ sound = 'music_disc.11',      length = '1:11' },
+	{ sound = 'music_disc.13',      length = '2:58' },
+	{ sound = 'music_disc.blocks',  length = '5:45' },
+	{ sound = 'music_disc.cat',     length = '3:05' },
+	{ sound = 'music_disc.chirp',   length = '3:05' },
+	{ sound = 'music_disc.far',     length = '2:54' },
+	{ sound = 'music_disc.mall',    length = '3:17' },
+	{ sound = 'music_disc.mellohi', length = '1:36' },
+	{ sound = 'music_disc.stal',    length = '2:30' },
+	{ sound = 'music_disc.strad',   length = '3:08' },
+	{ sound = 'music_disc.wait',    length = '3:58' },
+	{ sound = 'music_disc.ward',    length = '4:11' },
+    { sound = 'music_disc.pigstep',    length = '2:28' },
 }
 
 while true do
